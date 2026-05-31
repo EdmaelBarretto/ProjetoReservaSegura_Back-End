@@ -4,6 +4,34 @@ API REST do aplicativo gamificado de educação financeira que suporta as funcio
 
 ---
 
+## 👥 Equipe — Squad 29
+
+**Código/Sigla:** RS · **Nome do Projeto:** RESERVA SEGURA
+
+| Nome | Papel |
+|------|-------|
+| Agnes Letícia Soares Ribeiro | Front-End |
+| Allan Harrison Lemos de Barros Falcão | Front-End |
+| Ana Carolina da Silva Santos | Dados |
+| Arthur Henrique Silveira de Paula | Design |
+| Edmael Paulo Ribeiro Barreto | Back-End / QA |
+| Gabriel Gleydson Lima dos Santos | Dados / Gestão |
+
+**Programa:** Residência Tecnológica Take Off · Bradesco 2026.1
+
+---
+
+## 🔗 Links do Projeto
+
+| Recurso | Link |
+|---------|------|
+| 🌐 Aplicação em Produção | [projeto-reserva-segura-front-end.vercel.app](https://projeto-reserva-segura-front-end.vercel.app/) |
+| 🎨 Repositório Front-End | [Projeto-Reserva-Segura_Take-Off](https://github.com/EdmaelBarretto/Projeto-Reserva-Segura_Take-Off) |
+| ⚙️ Repositório Back-End | [ProjetoReservaSegura_Back-End](https://github.com/EdmaelBarretto/ProjetoReservaSegura_Back-End) |
+| 🛡️ Repositório QA | [Reserva-Segura-QA](https://github.com/EdmaelBarretto/Reserva-Segura-QA) |
+
+---
+
 ## 🦖 Sobre o Projeto
 
 O backend do **Reserva Segura** é uma API desenvolvida em Spring Boot que fornece todos os endpoints necessários para o funcionamento do aplicativo, incluindo autenticação JWT, gerenciamento de metas de economia, missões diárias e estatísticas de gamificação.
@@ -116,29 +144,29 @@ A API estará disponível em: `http://localhost:8080`
 ```
 reservasegura/
 ├── src/main/java/br/com/reservasegura/
-│   ├── controller/         # Controllers REST
+│   ├── controller/
 │   │   ├── AuthController.java
 │   │   ├── GoalController.java
 │   │   ├── MissionController.java
 │   │   ├── StatsController.java
 │   │   └── TransactionController.java
-│   ├── dto/                # Objetos de transferência de dados
+│   ├── dto/
 │   │   ├── AuthResponse.java
 │   │   ├── LoginRequest.java
 │   │   ├── RegisterRequest.java
 │   │   └── ...
-│   ├── entity/             # Entidades JPA
+│   ├── entity/
 │   │   ├── User.java
 │   │   ├── Goal.java
 │   │   ├── Transaction.java
 │   │   ├── Mission.java
 │   │   └── MissionProgress.java
-│   ├── repository/         # Repositórios Spring Data
-│   ├── security/           # Configuração JWT e Spring Security
+│   ├── repository/
+│   ├── security/
 │   │   ├── JwtService.java
 │   │   ├── JwtFilter.java
 │   │   └── SecurityConfig.java
-│   └── service/            # Regras de negócio
+│   └── service/
 │       ├── UserService.java
 │       ├── GoalService.java
 │       └── TransactionService.java
@@ -197,4 +225,4 @@ Este projeto é de código aberto para fins educacionais.
 
 ---
 
-Desenvolvido com 💚 usando Java + Spring Boot
+Desenvolvido usando Java + Spring Boot · Squad 29 · Bradesco 2026.1
